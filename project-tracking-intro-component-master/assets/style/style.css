@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+body {
+    
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    
+}
+
+
+.top-area {
+    padding: 40px 0;
+}
+
+
+.top-area-container:after {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: hsl(207, 33%, 95%);
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 425px;
+    border-bottom-left-radius: 80px;
+    z-index: -1;
+}
+
+.menu {
+    
+    list-style-type: none;
+    justify-content: center;
+}
+
+.menu li {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+.menu li a {
+
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+.menu li.login-btn a {
+    color: gray;
+}
+
+
+.content {
+    margin-top: 80px;
+}
+
+h4 {
+    color: hsl(231, 7%, 65%);
+    letter-spacing: 5px;
+}
+
+span.header-emphasis {
+    background-color: hsl(230, 29%, 20%);
+    color: white;
+    padding: 10px 10px;
+    border-radius: 30%;
+    margin-right: 10px;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: hsl(230, 29%, 20%);
+}
+
+
+h1.main-title {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.scheduleBtnDiv, .scheduleBtnDiv button{
+    text-transform: uppercase !important;
+}
+
+.scheduleBtn {
+    background-color: hsl(0, 100%, 68%);
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.scheduleBtnDiv span{
+    letter-spacing: 2px;
+    color: hsl(231, 7%, 65%);
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    
+   
+    
+    .content-left {
+      margin-top: 100px;
+    }
+    .top-area-container:after{
+        
+        width: 40%;
+    }
+    .device-illus{
+        width: 100%;
+    }
+  }
